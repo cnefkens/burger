@@ -1,4 +1,4 @@
-var con=require('./connection');
+var connection=require('./connection');
 
 
 // Helper function for SQL syntax.
