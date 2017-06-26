@@ -5,7 +5,7 @@ var sqlLogin='customer';
 var sqlPwd='P@55w0rd';
 
 if (process.env.JAWSDB_URL) {
-     con=mysql.createConnection(process.env.JAWSDB_URL);
+     connection=mysql.createConnection(process.env.JAWSDB_URL);
     }
     else {
         connection=mysql.createConnection({
